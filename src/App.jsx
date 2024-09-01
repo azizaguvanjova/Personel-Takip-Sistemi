@@ -62,8 +62,8 @@ const handleInputChange = (e) =>{
   let input = e.target.value
 
 
-if(input.includes('Evil Crop.')){
-  input = input.replace(/Evil Crop\./g, 'Good Crop.')
+if(input.includes('Evil Corp.')){
+  input = input.replace(/Evil Corp\./g, 'Good Corp.')
 }
 setUserInput(input)
 
